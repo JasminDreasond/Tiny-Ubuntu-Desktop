@@ -4,6 +4,7 @@ https://www.geeksforgeeks.org/10-best-file-managers-for-linux/ - Optional
 
 https://github.com/chrippa/ds4drv - Optional
 
+https://gitlab.com/trivoxel/utilities/deb-pacman/-/releases
 
 <hr/>
 
