@@ -3,7 +3,14 @@
 </center>
 
 # Tiny Ubuntu Desktop
-Scripts and files to help install an Ubuntu Desktop. Feel free to go to any folder to access more information. Credits to third parties are already present within the files.
+Scripts and files to help install an Ubuntu Desktop like tiny me! Feel free to go to any folder to access more information. Credits to third parties are already present within the files.
 
-These files have only been tested on the Ubuntu Desktop 22.
 Do not forget. Everything that happens is entirely your responsibility. Be careful if this repository is out of date.
+
+## Issues?
+Feel free to report issues on this repository. The only thing required is that you are at least running the same base version of the Ubuntu that I use. This repository was developed for my personal use and at the same time to help people who have the same operating system as me.
+
+So avoid talking about other Linux OS that I don't know about how it actually works.
+
+## What Ubuntu am I currently using?
+Ubuntu Desktop 22.10
