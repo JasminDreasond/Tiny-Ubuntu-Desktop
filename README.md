@@ -1,3 +1,7 @@
+<center>
+<img src="https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/banner/banner.jpg">
+</center>
+
 # Tiny Ubuntu Desktop
 Scripts and files to help install an Ubuntu Desktop. Feel free to go to any folder to access more information. Credits to third parties are already present within the files.
 
