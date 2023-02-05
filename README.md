@@ -14,3 +14,6 @@ So avoid talking about other Linux OS that I don't know about how it actually wo
 
 ## What Ubuntu am I currently using?
 Ubuntu Desktop 22.10
+
+## How did I start my installation?
+I booted a vanilla Ubuntu ISO and I checked it to install all recommended softwares from the package. After this installation I slowly uninstalled softwares and packages not interesting to me personally.
