@@ -1,0 +1,45 @@
+# Create Swap File in Linux
+
+Hello, in this tutorial, you will learn how to increase the memory of your VPS (Linux virtual machine) or your WordPress site. You can add a swap file for VM instance to increase memory. If you want to know to get free VPS, check the VPS and Mining Playlist of the channel.
+
+Open the terminal of your VPS or WordPress VM instances using an SSH connection.
+
+To see available Memory and swap file size, use this command. You can see there is no swap file.
+```shell
+free -m
+```
+
+Create a swap file and allocate space. I’ve used 1024 MB but you can take more.
+```shell
+sudo dd if=/dev/zero of=/mnt/swap.0 bs=1024 count=1048576
+```
+
+Next use this line to mount it.
+```shell
+sudo mkswap /mnt/swap.0
+```
+
+Switch to root account to activate the swap.
+```shell
+sudo su
+```
+
+Use this to activate it.
+```shell
+echo "/mnt/swap.0 swap swap defaults 0 0" >> /etc/fstab
+```
+
+Next use this command.
+```shell
+swapon /mnt/swap.0
+```
+
+check if it’s created successfully.
+```shell
+sudo swapon -s
+```
+
+Check again the created main and swap size for memory. The swap file is created successfully.
+```shell
+free -m
+```
