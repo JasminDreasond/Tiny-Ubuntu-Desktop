@@ -1,53 +1,42 @@
-https://flathub.org/apps/details/com.parsecgaming.parsec
+https://flathub.org/apps/details/com.parsecgaming.parsec - Optional
 
-https://www.geeksforgeeks.org/10-best-file-managers-for-linux/
+https://www.geeksforgeeks.org/10-best-file-managers-for-linux/ - Optional
 
+https://github.com/chrippa/ds4drv - Optional
 
 
 <hr/>
 
 ## Shop
 
-ATLauncher
+ATLauncher - Minecraft
 
-Authy Desktop
+Extension Manager - Gnome
 
-Discord
+Extensions - Gnome
 
-Binance
+Tweaks - Gnome
 
-Brave
+AntiMicroX - Gamepad
 
-Krita
+ProtonTricks - Wine
 
-Extension Manager
+WineTricks - Wine
 
-Extensions
+Wine - Wine
 
-Tweaks
+Q4Wine - Wine
 
-AntiMicroX
+Remmina - SSH
 
-ProtonTricks
+VLC Player - Player
 
-WineTricks
+Blockbench - Minecraft 3D Model Editor
 
-Wine
+Font Manager - Font Manager
 
-Audacity
+VideoMass - FFMPEG
 
-Q4Wine
+Weather - Weather?
 
-Remmina
-
-VLC Player
-
-Blockbench
-
-Font Manager
-
-VideoMass
-
-Weather
-
-NoiseTorch
+NoiseTorch - Microphone Anti Noise
