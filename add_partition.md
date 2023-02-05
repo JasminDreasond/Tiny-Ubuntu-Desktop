@@ -53,21 +53,5 @@
 <ul>
 <li><a href="https://www.linuxbabe.com/desktop-linux/fix-cant-read-superblock-error" target="_blank" rel="noopener">How to Fix “can’t read superblock” Error on Linux (ext4 &amp; Btrfs)</a></li>
 </ul>
-<div style="text-align:left" class="yasr-auto-insert-visitor"><div id="yasr_visitor_votes_e144ca7643cd3" class="yasr-visitor-votes"><div class="yasr-custom-text-vv-before yasr-custom-text-vv-before-1463">Rate this tutorial</div><div id="yasr-vv-second-row-container-e144ca7643cd3" class="yasr-vv-second-row-container"><div id="yasr-visitor-votes-rater-e144ca7643cd3" class="yasr-rater-stars-vv yasr-star-rating" data-rater-postid="1463" data-rating="4.8" data-rater-starsize="32" data-rater-readonly="false" data-rater-nonce="2e69152b12" data-issingular="true" style="width: 160px; height: 32px; background-size: 32px; cursor: pointer;"><div class="yasr-star-value" style="background-size: 32px; width: 96%;"></div></div><div class="yasr-vv-stats-text-container" id="yasr-vv-stats-text-container-e144ca7643cd3"><svg xmlns="https://www.w3.org/2000/svg" width="20" height="20" class="yasr-dashicons-visitor-stats" data-postid="1463" id="yasr-stats-dashicon-e144ca7643cd3" tabindex="0" style="fill: rgb(0, 0, 0);">
-<path d="M18 18v-16h-4v16h4zM12 18v-11h-4v11h4zM6 18v-8h-4v8h4z"></path>
-</svg><span id="yasr-vv-text-container-e144ca7643cd3" class="yasr-vv-text-container">[Total: <span id="yasr-vv-votes-number-container-e144ca7643cd3">25</span> Average: <span id="yasr-vv-average-container-e144ca7643cd3">4.8</span>]</span></div><div id="yasr-vv-loader-e144ca7643cd3" class="yasr-vv-container-loader"></div></div><div id="yasr-vv-bottom-container-e144ca7643cd3" class="yasr-vv-bottom-container" style="display:none"></div></div></div><div style="display:none;" class="shareaholic-canvas" data-app="recommendations" data-title="How To Automount File Systems on Linux" data-link="https://www.linuxbabe.com/desktop-linux/how-to-automount-file-systems-on-linux" data-app-id-name="post_below_content"></div>
-</div>
-<div style="clear:both"></div>
-<div class="thn_post_wrap wp_link_pages">
-</div>
-
-<div class="post_foot">
-<div class="post_meta">
-<div class="post_tag">
-<div class="tag_list">
-<ul><li><i class="fa-tag"></i><a href="https://www.linuxbabe.com/tag/fstab" rel="tag">fstab</a></li><li><i class="fa-tag"></i><a href="https://www.linuxbabe.com/tag/linux" rel="tag">Linux</a></li></ul> </div>
-</div>
-</div>
-</div>
 
 </div>
