@@ -1,3 +1,11 @@
+https://flathub.org/apps/details/com.parsecgaming.parsec
+
+
+
+<hr/>
+
+## Shop
+
 ATLauncher
 
 Authy Desktop
