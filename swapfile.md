@@ -1,4 +1,5 @@
 # Create Swap File in Linux
+### https://www.minextuts.com/how-to-create-swap-file-in-linux-for-increase-memory-ram-size-of-vps/
 
 Hello, in this tutorial, you will learn how to increase the memory of your VPS (Linux virtual machine) or your WordPress site. You can add a swap file for VM instance to increase memory. If you want to know to get free VPS, check the VPS and Mining Playlist of the channel.
 
