@@ -6,6 +6,8 @@ https://github.com/chrippa/ds4drv - Optional
 
 https://gitlab.com/trivoxel/utilities/deb-pacman/-/releases
 
+https://docs.brew.sh/Homebrew-on-Linux
+
 <hr/>
 
 ## Shop
