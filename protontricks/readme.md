@@ -20,34 +20,34 @@
 </code></pre></td></tr></tbody></table></div>
 </div>
 </div><p>then choose the installed game from the list, and press <strong>OK</strong></p>
-<a class="lightgallery" href="/img/protontricks/protontricks1.png" title="protontricks GUI picture1" data-thumbnail="/img/protontricks/protontricks1.png">
-        <img class="lazyautosizes lazyloaded" data-src="/img/protontricks/protontricks1.png" data-srcset="/img/protontricks/protontricks1.png, /img/protontricks/protontricks1.png 1.5x, /img/protontricks/protontricks1.png 2x" data-sizes="auto" alt="protontricks GUI picture1" sizes="182px" srcset="/img/protontricks/protontricks1.png, /img/protontricks/protontricks1.png 1.5x, /img/protontricks/protontricks1.png 2x" src="/img/protontricks/protontricks1.png">
+<a class="lightgallery" href="https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protontricks1.png" title="protontricks GUI picture1" data-thumbnail="https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protontricks1.png">
+        <img class="lazyautosizes lazyloaded" data-src="https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protontricks1.png" data-srcset="https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protontricks1.png, https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protontricks1.png 1.5x, https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protontricks1.png 2x" data-sizes="auto" alt="protontricks GUI picture1" sizes="182px" srcset="https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protontricks1.png, https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protontricks1.png 1.5x, https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protontricks1.png 2x" src="https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protontricks1.png">
     </a>
 <ol start="2">
 <li><strong>Select the default wineprefix</strong> and press <strong>OK</strong></li>
 </ol>
-<a class="lightgallery" href="/img/protontricks/protontricks2.png" title="protontricks GUI picture2" data-thumbnail="/img/protontricks/protontricks2.png">
-        <img class="lazyautosizes lazyloaded" data-src="/img/protontricks/protontricks2.png" data-srcset="/img/protontricks/protontricks2.png, /img/protontricks/protontricks2.png 1.5x, /img/protontricks/protontricks2.png 2x" data-sizes="auto" alt="protontricks GUI picture2" sizes="182px" srcset="/img/protontricks/protontricks2.png, /img/protontricks/protontricks2.png 1.5x, /img/protontricks/protontricks2.png 2x" src="/img/protontricks/protontricks2.png">
+<a class="lightgallery" href="https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protontricks2.png" title="protontricks GUI picture2" data-thumbnail="https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protontricks2.png">
+        <img class="lazyautosizes lazyloaded" data-src="https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protontricks2.png" data-srcset="https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protontricks2.png, https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protontricks2.png 1.5x, https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protontricks2.png 2x" data-sizes="auto" alt="protontricks GUI picture2" sizes="182px" srcset="https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protontricks2.png, https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protontricks2.png 1.5x, https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protontricks2.png 2x" src="https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protontricks2.png">
     </a>
 <ol start="3">
 <li>Pick <strong>Install a Windows DLL or component</strong> and press <strong>OK</strong></li>
 </ol>
-<a class="lightgallery" href="/img/protontricks/protontricks3.png" title="protontricks GUI picture3" data-thumbnail="/img/protontricks/protontricks3.png">
-        <img class="lazyautosizes lazyloaded" data-src="/img/protontricks/protontricks3.png" data-srcset="/img/protontricks/protontricks3.png, /img/protontricks/protontricks3.png 1.5x, /img/protontricks/protontricks3.png 2x" data-sizes="auto" alt="protontricks GUI picture3" sizes="182px" srcset="/img/protontricks/protontricks3.png, /img/protontricks/protontricks3.png 1.5x, /img/protontricks/protontricks3.png 2x" src="/img/protontricks/protontricks3.png">
+<a class="lightgallery" href="https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protontricks3.png" title="protontricks GUI picture3" data-thumbnail="https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protontricks3.png">
+        <img class="lazyautosizes lazyloaded" data-src="https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protontricks3.png" data-srcset="https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protontricks3.png, https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protontricks3.png 1.5x, https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protontricks3.png 2x" data-sizes="auto" alt="protontricks GUI picture3" sizes="182px" srcset="https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protontricks3.png, https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protontricks3.png 1.5x, https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protontricks3.png 2x" src="https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protontricks3.png">
     </a>
 <ol start="4">
 <li>Select all the components that you want to install, and press <strong>OK</strong></li>
 </ol>
-<a class="lightgallery" href="/img/protontricks/protontricks4.png" title="protontricks GUI picture4" data-thumbnail="/img/protontricks/protontricks4.png">
-        <img class="lazyautosizes lazyloaded" data-src="/img/protontricks/protontricks4.png" data-srcset="/img/protontricks/protontricks4.png, /img/protontricks/protontricks4.png 1.5x, /img/protontricks/protontricks4.png 2x" data-sizes="auto" alt="protontricks GUI picture4" sizes="182px" srcset="/img/protontricks/protontricks4.png, /img/protontricks/protontricks4.png 1.5x, /img/protontricks/protontricks4.png 2x" src="/img/protontricks/protontricks4.png">
+<a class="lightgallery" href="https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protontricks4.png" title="protontricks GUI picture4" data-thumbnail="https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protontricks4.png">
+        <img class="lazyautosizes lazyloaded" data-src="https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protontricks4.png" data-srcset="https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protontricks4.png, https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protontricks4.png 1.5x, https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protontricks4.png 2x" data-sizes="auto" alt="protontricks GUI picture4" sizes="182px" srcset="https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protontricks4.png, https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protontricks4.png 1.5x, https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protontricks4.png 2x" src="https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protontricks4.png">
     </a>
 <hr>
 <h2 id="how-to-use-protontricks" class="headerLink"><a href="#how-to-use-protontricks" class="header-mark"></a>How to use protontricks</h2>
 <p>I will give you an <strong>example</strong> of a game that does not run out of the box on Proton and requires additional workarounds.</p>
 <p>The name of this game is <strong>Her Story</strong>. The game requires some multimedia codecs to run the videos.</p>
 <p>According to <a href="http://protondb.com" title="Protondb website" target="_blank" rel="noopener noreffer">protondb.com</a> the game requires <strong>Proton 4.11</strong>, and some closed-source runtime libraries to be installed using <strong>Protontricks</strong>.</p>
-<a class="lightgallery" href="/img/protontricks/protondb.png" title="protondb" data-thumbnail="/img/protontricks/protondb.png">
-        <img class="lazyload" data-src="/img/protontricks/protondb.png" data-srcset="/img/protontricks/protondb.png, /img/protontricks/protondb.png 1.5x, /img/protontricks/protondb.png 2x" data-sizes="auto" alt="protondb">
+<a class="lightgallery" href="https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protondb.png" title="protondb" data-thumbnail="https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protondb.png">
+        <img class="lazyload" data-src="https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protondb.png" data-srcset="https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protondb.png, https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protondb.png 1.5x, https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/protondb.png 2x" data-sizes="auto" alt="protondb">
     </a>
 <ol>
 <li>
@@ -99,8 +99,8 @@
 <li>Go to this link » <a href="https://steamdb.info/apps/" title="steamdb website" target="_blank" rel="noopener noreffer">https://steamdb.info/apps/</a></li>
 <li>Search for the game by its name.</li>
 </ol>
-<a class="lightgallery" href="/img/protontricks/steamdb.png" title="steamdb website" data-thumbnail="/img/protontricks/steamdb.png">
-        <img class="lazyload" data-src="/img/protontricks/steamdb.png" data-srcset="/img/protontricks/steamdb.png, /img/protontricks/steamdb.png 1.5x, /img/protontricks/steamdb.png 2x" data-sizes="auto" alt="steamdb website">
+<a class="lightgallery" href="https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/steamdb.png" title="steamdb website" data-thumbnail="https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/steamdb.png">
+        <img class="lazyload" data-src="https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/steamdb.png" data-srcset="https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/steamdb.png, https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/steamdb.png 1.5x, https://raw.githubusercontent.com/JasminDreasond/Tiny-Ubuntu-Desktop/main/image/steamdb.png 2x" data-sizes="auto" alt="steamdb website">
     </a>
 <hr>
 <div class="details admonition info open">
