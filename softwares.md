@@ -1,5 +1,7 @@
 https://flathub.org/apps/details/com.parsecgaming.parsec
 
+https://www.geeksforgeeks.org/10-best-file-managers-for-linux/
+
 
 
 <hr/>
@@ -37,8 +39,6 @@ Audacity
 Q4Wine
 
 Remmina
-
-File Manager
 
 VLC Player
 
