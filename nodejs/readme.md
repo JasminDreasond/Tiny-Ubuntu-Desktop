@@ -49,6 +49,7 @@ At this point, you have successfully installed Node.js and npm using apt and the
 
 # Modules
 
+```bash
 npm install -g node-gyp
 
 npm install -g firebase-tools
@@ -56,3 +57,4 @@ npm install -g firebase-tools
 npm install -g pm2
 
 pm2 startup
+```
