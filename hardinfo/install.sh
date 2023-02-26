@@ -1,1 +1,1 @@
-sudo apt-get install hardinfo
+sudo apt-get install hardinfo -y

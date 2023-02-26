@@ -1,1 +1,1 @@
-sudo apt-get install python-is-python3
+sudo apt-get install python-is-python3 -y
