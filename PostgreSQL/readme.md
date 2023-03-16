@@ -1,3 +1,6 @@
+https://support.plesk.com/hc/en-us/articles/115003321434-How-to-enable-remote-access-to-PostgreSQL-databases-hosted-in-Plesk
+
+https://www.postgresql.org/download/linux/ubuntu/
 # Install
 
 ## Create the file repository configuration:
