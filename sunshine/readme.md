@@ -1,9 +1,11 @@
 https://github.com/LizardByte/Sunshine/releases
 
-port: 47989
+```
+TCP 47984, 47989, 48010
+UDP 47998, 47999, 48000, 48002, 48010
+```
 
-video port: 47998, 48000
-
+GUI PORT = 47990
 
 ```sh
 sudo nano /etc/apt/sources.list
