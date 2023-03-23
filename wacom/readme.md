@@ -1,0 +1,1 @@
+https://github.com/linuxwacom/input-wacom/wiki/Installing-input-wacom-from-source
