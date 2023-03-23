@@ -1,3 +1,5 @@
+echo "File Download List: http://security.ubuntu.com/ubuntu/pool/universe/c/chromium-browser/"
+
 read -p "What is the chromium-codecs-ffmpeg-extra file name? " deb_libffmpeg_file 
 
 wget -q -O - http://security.ubuntu.com/ubuntu/pool/universe/c/chromium-browser/$deb_libffmpeg_file
