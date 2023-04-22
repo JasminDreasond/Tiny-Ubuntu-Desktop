@@ -2,6 +2,8 @@
 
 https://github.com/home-sweet-gnome/dash-to-panel
 
+https://github.com/marcinjakubowski/date-menu-formatter
+
 Applications Menu
 
 Desktop Icons NG (DING)
