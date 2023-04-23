@@ -47,3 +47,10 @@ Are you want to back to old options? Make this
 
     $ sudo update-alternatives --list python3
     $ sudo update-alternatives --remove python3 /usr/bin/python3.10
+
+
+# Alternative 2
+
+.bashrc
+
+    alias python3='/usr/bin/python3.11'
