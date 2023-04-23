@@ -12,8 +12,6 @@ https://docs.brew.sh/Homebrew-on-Linux
 
 ## Shop
 
-Flameshot - Print Screen
-
 ATLauncher - Minecraft
 
 Extension Manager - Gnome
