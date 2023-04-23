@@ -26,3 +26,9 @@ https://github.com/MarcinOrlowski/html-clock-plasmoid
 https://store.kde.org/p/1229134
 
 https://github.com/PapirusDevelopmentTeam/materia-kde
+
+## Task Switcher
+
+https://store.kde.org/p/1153173
+
+https://github.com/Zren/kwin-tabbox-thumbnail_grid
