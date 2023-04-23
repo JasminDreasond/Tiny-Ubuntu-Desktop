@@ -43,3 +43,6 @@ After you select the option that you wan to use, you may check the python versio
 
     python --version
 
+Are you want to back to old options? Make this
+
+    sudo update-alternatives --remove python3 /usr/bin/python3.10
