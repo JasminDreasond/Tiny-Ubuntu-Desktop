@@ -21,6 +21,11 @@ https://store.kde.org/p/1403702
 
 https://github.com/MarcinOrlowski/html-clock-plasmoid
 
+
+https://store.kde.org/p/1160672
+
+https://github.com/zren/plasma-applet-tiledmenu
+
 ## Plasma Style
 
 https://store.kde.org/p/1229134
