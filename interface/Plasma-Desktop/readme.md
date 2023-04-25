@@ -37,3 +37,15 @@ https://github.com/PapirusDevelopmentTeam/materia-kde
 https://store.kde.org/p/1153173
 
 https://github.com/Zren/kwin-tabbox-thumbnail_grid
+
+## Splashscreens
+
+https://store.kde.org/p/1871277
+
+https://github.com/KartikSindura/kuro
+
+## Wallpaper Plugins
+
+https://store.kde.org/p/1475528
+
+https://github.com/catsout/wallpaper-engine-kde-plugin
