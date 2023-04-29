@@ -26,6 +26,11 @@ https://store.kde.org/p/1160672
 
 https://github.com/zren/plasma-applet-tiledmenu
 
+
+https://store.kde.org/p/1977771
+
+https://github.com/dark-eye/com.darkeye.chatGPT
+
 ## Plasma Style
 
 https://store.kde.org/p/1229134
