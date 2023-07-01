@@ -13,7 +13,7 @@ Feel free to report issues on this repository. The only thing required is that y
 So avoid talking about other Linux OS that I don't know about how it actually works.
 
 ## What Ubuntu am I currently using?
-Ubuntu Desktop 23.4
+Ubuntu Desktop 23.04
 
 ## How did I start my installation?
 I booted a vanilla Ubuntu ISO and I checked it to install all recommended softwares from the package. After this installation I slowly uninstalled softwares and packages not interesting to me personally.
