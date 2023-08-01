@@ -12,6 +12,8 @@ https://docs.brew.sh/Homebrew-on-Linux
 
 ## Shop
 
+Antares - SQL Browser
+
 ATLauncher - Minecraft
 
 Extension Manager - Gnome
