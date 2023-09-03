@@ -44,3 +44,24 @@ Check again the created main and swap size for memory. The swap file is created 
 ```shell
 free -m
 ```
+
+<hr/>
+
+# Delete Swap File in Linux
+### https://askubuntu.com/questions/969296/how-to-delete-a-swap-file-in-ubuntu
+
+The output of free -h indicates that swap is being used - the swap process is still running.
+
+Enter the command
+
+```shell
+sudo swapoff /mnt/swap.0
+```
+
+This will disable the swapfile, and the file can be deleted at that point.
+
+Please note that if you have created an entry in /etc/fstab for the swapfile, you should also delete it (or comment it out by adding # at the beginning of the line).
+
+```shell
+sudo rm /mnt/swap.0
+```
