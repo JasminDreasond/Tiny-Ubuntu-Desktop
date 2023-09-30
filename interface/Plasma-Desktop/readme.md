@@ -17,6 +17,10 @@ https://github.com/ubuntu/yaru/tree/master/icons
 
 ## Widgets
 
+https://store.kde.org/p/1298955/
+
+https://github.com/paju1986/PlasmaConfSaver
+
 https://store.kde.org/p/1403702
 
 https://github.com/MarcinOrlowski/html-clock-plasmoid
