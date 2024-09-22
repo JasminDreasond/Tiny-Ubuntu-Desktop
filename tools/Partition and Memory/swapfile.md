@@ -65,3 +65,9 @@ Please note that if you have created an entry in /etc/fstab for the swapfile, yo
 ```shell
 sudo rm /mnt/swap.0
 ```
+
+Disable or enable swap
+```shell
+sudo swapoff -a
+sudo swapon -a
+```
