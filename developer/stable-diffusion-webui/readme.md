@@ -1,13 +1,15 @@
-https://github.com/AUTOMATIC1111/stable-diffusion-webui
-
 https://civitai.com/
 
-You need to use Python 3.10.11
+Python 3.10
+
+## Start Stable Diffusion Forge
+
+This script works with the `webui_forge.sh` file in this folder!
 
 ```sh
-
-sudo apt install --no-install-recommends google-perftools
-
-./webui.sh --xformers
-
+alias sdforge-start='cd /path/stable-diffusion/ && export QT_QPA_PLATFORM=offscreen && ./webui_forge.sh --xformers --pin-shared-memory --cuda-malloc --cuda-stream'
 ```
+
+### Optional
+
+    --always-offload-from-vram
