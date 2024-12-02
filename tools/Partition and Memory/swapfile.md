@@ -13,6 +13,7 @@ free -m
 Create a swap file and allocate space. I’ve used 1024 MB but you can take more.
 ```shell
 sudo dd if=/dev/zero of=/mnt/swap.0 bs=1024 count=1048576
+sudo chmod 0600 /mnt/swap.0
 ```
 
 Next use this line to mount it.
