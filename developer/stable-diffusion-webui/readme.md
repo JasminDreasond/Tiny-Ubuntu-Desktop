@@ -13,3 +13,12 @@ alias sdforge-start='cd /path/stable-diffusion/ && export QT_QPA_PLATFORM=offscr
 ### Optional
 
     --always-offload-from-vram
+
+## Graphic cards tested
+Nvidia GTX 1060 - 6GB VRAM
+
+Nvidia Galax GeForce RTX 3060 - 12GB VRAM
+
+**Recommended VRAM: 8GB**
+
+If your video card isn't on the list, you'll have to find out whether it works or not.
