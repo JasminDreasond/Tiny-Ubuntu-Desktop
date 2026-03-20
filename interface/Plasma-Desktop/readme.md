@@ -17,6 +17,8 @@ https://github.com/ubuntu/yaru/tree/master/icons
 
 https://store.kde.org/p/1977340 windows-eleven
 
+https://store.kde.org/p/1546069 Win11 icon theme
+
 ## Widgets
 
 https://store.kde.org/p/1298955/
