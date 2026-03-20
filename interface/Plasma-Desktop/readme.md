@@ -15,6 +15,8 @@ https://store.kde.org/p/1403702
 
 https://github.com/ubuntu/yaru/tree/master/icons
 
+https://store.kde.org/p/1977340 windows-eleven
+
 ## Widgets
 
 https://store.kde.org/p/1298955/
