@@ -32,3 +32,5 @@ chmod +x *.sh
 ```bash
 ./start.sh
 ```
+
+Python version tested: Python-3.10.14
