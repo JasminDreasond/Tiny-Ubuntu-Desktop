@@ -17,6 +17,37 @@ IDENTITY_FILE=""
 ENABLE_TERMINAL="true"
 # ---------------------------
 
+# Function to check and install dependencies
+check_dependencies() {
+    PACKAGES_TO_INSTALL=()
+
+    if ! command -v ssh &> /dev/null; then
+        PACKAGES_TO_INSTALL+=("openssh-client")
+    fi
+
+    if ! command -v sshpass &> /dev/null; then
+        PACKAGES_TO_INSTALL+=("sshpass")
+    fi
+
+    if [ ${#PACKAGES_TO_INSTALL[@]} -ne 0 ]; then
+        echo "Missing dependencies: ${PACKAGES_TO_INSTALL[*]}"
+        read -p "Would you like to install them now? (y/n): " choice
+        case "$choice" in 
+            [Yy]* ) 
+                echo "Updating and installing packages..."
+                sudo apt update && sudo apt install -y "${PACKAGES_TO_INSTALL[@]}"
+                ;;
+            * ) 
+                echo "Error: Dependencies are required to run this script."
+                exit 1
+                ;;
+        esac
+    fi
+}
+
+# Run dependency check
+check_dependencies
+
 case $# in
   1)
     # Only 1 argument: Use it for both local and remote ports
