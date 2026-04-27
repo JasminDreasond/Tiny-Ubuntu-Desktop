@@ -8,22 +8,34 @@
 # EDIT YOUR FILE HERE!!!!!!!!!
 REMOTE_HOST=""
 PASSWORD_HOST=""
+DEFAULT_SSH_PORT=22
 
-# Documentation:
-# $1 = Local and Remote Port (if only two arguments are passed)
-# $2 = SSH Port
-
-if [ "$#" -eq 2 ]; then
-    # Case: User provided 2 arguments
+case $# in
+  1)
+    # Only 1 argument: Use it for both local and remote ports
+    LOCAL_PORT=$1
+    REMOTE_PORT=$1
+    SSH_PORT=$DEFAULT_SSH_PORT
+    ;;
+  2)
+    # 2 arguments: First is both ports, second is SSH port
     LOCAL_PORT=$1
     REMOTE_PORT=$1
     SSH_PORT=$2
-else
-    # Fallback/Default values if arguments are missing or different
-    LOCAL_PORT=${1:-8080}
-    REMOTE_PORT=${2:-8080}
-    SSH_PORT=${3:-22}
-fi
+    ;;
+  3)
+    # 3 arguments: Full manual control
+    LOCAL_PORT=$1
+    REMOTE_PORT=$2
+    SSH_PORT=$3
+    ;;
+  *)
+    # No arguments or more than 3: Use defaults
+    LOCAL_PORT=8080
+    REMOTE_PORT=8080
+    SSH_PORT=$DEFAULT_SSH_PORT
+    ;;
+esac
 
 echo "----------------------------------------"
 echo "Starting SSH Tunnel..."
