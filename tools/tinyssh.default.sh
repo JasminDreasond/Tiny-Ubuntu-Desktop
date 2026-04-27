@@ -4,11 +4,14 @@
 # Idea by JasminDreasond
 # Made with Google Gemini
 
-# Default values if no arguments are provided
-# EDIT YOUR FILE HERE!!!!!!!!!
+# --- EDIT YOUR FILE HERE ---
 REMOTE_HOST=""
 PASSWORD_HOST=""
 DEFAULT_SSH_PORT=22
+# Add the path to your key here to enable it (e.g., "/home/user/.ssh/id_rsa")
+# Leave it empty "" to disable it.
+IDENTITY_FILE=""
+# ---------------------------
 
 case $# in
   1)
@@ -37,15 +40,21 @@ case $# in
     ;;
 esac
 
+# Check if IdentityFile is provided
+ID_OPT=""
+if [ -n "$IDENTITY_FILE" ]; then
+    ID_OPT="-o IdentityFile=$IDENTITY_FILE"
+fi
+
 echo "----------------------------------------"
 echo "Starting SSH Tunnel..."
 echo "Remote Host: $REMOTE_HOST"
 echo "Local Port:  $LOCAL_PORT"
 echo "Remote Port: $REMOTE_PORT"
 echo "SSH Port:    $SSH_PORT"
+[ -n "$IDENTITY_FILE" ] && echo "Identity:    $IDENTITY_FILE"
 echo "----------------------------------------"
 
-# Using sshpass with an empty password as requested
-# -N: Do not execute a remote command (perfect for tunnels)
-# -f: Requests ssh to go to background just before command execution
-sshpass -p "$PASSWORD_HOST" ssh -L "$LOCAL_PORT:127.0.0.1:$REMOTE_PORT" "$REMOTE_HOST" -p "$SSH_PORT"
+# Using sshpass with the provided password
+# The $ID_OPT will be empty if IDENTITY_FILE is not set
+sshpass -p "$PASSWORD_HOST" ssh $ID_OPT -L "$LOCAL_PORT:127.0.0.1:$REMOTE_PORT" "$REMOTE_HOST" -p "$SSH_PORT" -N
