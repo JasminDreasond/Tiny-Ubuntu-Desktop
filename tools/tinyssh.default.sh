@@ -4,6 +4,11 @@
 # Idea by JasminDreasond
 # Made with Google Gemini
 
+# Default values if no arguments are provided
+# EDIT YOUR FILE HERE!!!!!!!!!
+REMOTE_HOST=""
+PASSWORD_HOST=""
+
 # Documentation:
 # $1 = Local and Remote Port (if only two arguments are passed)
 # $2 = SSH Port
@@ -20,13 +25,9 @@ else
     SSH_PORT=${3:-22}
 fi
 
-# Default values if no arguments are provided
-# EDIT YOUR FILE HERE!!!!!!!!!
-REMOTE_HOST=""
-PASSWORD_HOST=""
-
 echo "----------------------------------------"
 echo "Starting SSH Tunnel..."
+echo "Remote Host: $REMOTE_HOST"
 echo "Local Port:  $LOCAL_PORT"
 echo "Remote Port: $REMOTE_PORT"
 echo "SSH Port:    $SSH_PORT"
