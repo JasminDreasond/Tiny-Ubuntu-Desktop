@@ -5,9 +5,13 @@
 # Made with Google Gemini
 
 # --- EDIT YOUR FILE HERE ---
-REMOTE_HOST=""
-PASSWORD_HOST=""
-DEFAULT_SSH_PORT=22
+REMOTE_HOST=""          # The remote host you want to access. Ex: server.example.com
+PASSWORD_HOST=""        # The SSH password (Use sshpass -p)
+DEFAULT_SSH_PORT=22    # Port through which the SSH tunnel will be established
+
+# Local IP address for proxy listening. 
+# Use "127.0.0.1" (localhost only) or "0.0.0.0" (all available IPs).
+BIND_ADDRESS="127.0.0.1"
 
 # Identity file path (leave empty "" to disable)
 IDENTITY_FILE=""
@@ -89,13 +93,13 @@ fi
 
 echo "----------------------------------------"
 echo "Starting SSH Tunnel..."
-echo "Remote Host: $REMOTE_HOST"
-echo "Local Port:  $LOCAL_PORT"
-echo "Remote Port: $REMOTE_PORT"
-echo "SSH Port:    $SSH_PORT"
-[ -n "$IDENTITY_FILE" ] && echo "Identity:    $IDENTITY_FILE"
-echo "Mode:        $( [ "$ENABLE_TERMINAL" = "true" ] && echo "Interactive Terminal" || echo "Tunnel Only" )"
+echo "Remote Host:  $REMOTE_HOST"
+echo "Local Proxy Port (Listening at): $LOCAL_PORT (Binding to IP: $BIND_ADDRESS)" 
+echo "Target Remote Port: $REMOTE_PORT"
+echo "SSH Tunnel Gateway Port:    $SSH_PORT"
+[ -n "$IDENTITY_FILE" ] && echo "Identity File Path:    $IDENTITY_FILE"
+echo "Operation Mode:        $( [ "$ENABLE_TERMINAL" = "true" ] && echo "Interactive Terminal Session" || echo "Tunnel Only (Quiet)")"
 echo "----------------------------------------"
 
 # Executing the command
-sshpass -p "$PASSWORD_HOST" ssh $ID_OPT $N_FLAG -L "$LOCAL_PORT:127.0.0.1:$REMOTE_PORT" "$REMOTE_HOST" -p "$SSH_PORT"
+sshpass -p "$PASSWORD_HOST" ssh $ID_OPT $N_FLAG -L "$LOCAL_PORT:$BIND_ADDRESS:$REMOTE_PORT" "$REMOTE_HOST" -p "$SSH_PORT"
