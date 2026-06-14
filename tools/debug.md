@@ -4,6 +4,7 @@ free -h
 
 ```sh
 top
+nvtop
 ```
 
 ```sh
