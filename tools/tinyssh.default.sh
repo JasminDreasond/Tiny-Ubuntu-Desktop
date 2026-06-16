@@ -30,6 +30,10 @@ IDENTITY_FILE=""
 # Set to "true" to open the server terminal, 
 # or "false" to keep it as a quiet tunnel only (-N).
 ENABLE_TERMINAL="true"
+
+# Logging configuration
+ENABLE_LOGS="false"     # Set to "true" to enable session logging
+LOG_DIR="logs"          # Directory where session logs will be stored
 EOF
     echo ">>> A template '$ENV_FILE' has been created. Please edit it with your credentials before running again! <<<"
     exit 0
@@ -117,7 +121,6 @@ if [ -z "$REMOTE_HOST" ]; then
 fi
 
 # Core logic: If no arguments are passed, split DEFAULT_HOST_PORT string into an array.
-# Otherwise, use the arguments passed via command line.
 if [ $# -eq 0 ]; then
     # Unquoted assignment allows the shell to split strings by spaces into an array safely here
     # shellcheck disable=SC2206
@@ -126,44 +129,66 @@ else
     PORTS=("$@")
 fi
 
-# Build the multiple -L flags dynamically using a loop
-TUNNEL_FLAGS=""
-echo "----------------------------------------"
-echo "Configuring Port Forwarding:"
+# Main execution logic wrapped into a function to allow clean log redirection if needed
+run_ssh_tunnel() {
+    # Build the multiple -L flags dynamically using a loop
+    local TUNNEL_FLAGS=""
+    echo "----------------------------------------"
+    echo "Configuring Port Forwarding:"
 
-for PORT in "${PORTS[@]}"; do
-    # Supports syntax local_port:remote_port or just port (maps to same)
-    if [[ "$PORT" == *":"* ]]; then
-        L_PORT="${PORT%%:*}"
-        R_PORT="${PORT#*:}"
-    else
-        L_PORT="$PORT"
-        R_PORT="$PORT"
+    for PORT in "${PORTS[@]}"; do
+        local L_PORT R_PORT
+        # Supports syntax local_port:remote_port or just port (maps to same)
+        if [[ "$PORT" == *":"* ]]; then
+            L_PORT="${PORT%%:*}"
+            R_PORT="${PORT#*:}"
+        else
+            L_PORT="$PORT"
+            R_PORT="$PORT"
+        fi
+        
+        echo " -> Mapped: $BIND_ADDRESS:$L_PORT => Remote:$R_PORT"
+        TUNNEL_FLAGS="$TUNNEL_FLAGS -L $L_PORT:$BIND_ADDRESS:$R_PORT"
+    done
+
+    # Check if IdentityFile is provided
+    local ID_OPT=""
+    if [ -n "$IDENTITY_FILE" ]; then
+        ID_OPT="-o IdentityFile=$IDENTITY_FILE"
     fi
+
+    # Terminal vs Tunnel-only logic
+    local N_FLAG="-N"
+    if [ "$ENABLE_TERMINAL" = "true" ]; then
+        N_FLAG=""
+    fi
+
+    echo "----------------------------------------"
+    echo "Starting SSH Tunnel..."
+    echo "Remote Host:             $REMOTE_HOST"
+    echo "SSH Tunnel Gateway Port: $DEFAULT_SSH_PORT"
+    [ -n "$IDENTITY_FILE" ] && echo "Identity File Path:      $IDENTITY_FILE"
+    echo "Operation Mode:          $( [ "$ENABLE_TERMINAL" = "true" ] && echo "Interactive Terminal Session" || echo "Tunnel Only (Quiet)")"
+    echo "----------------------------------------"
+
+    # Executing the command with all generated tunnels
+    sshpass -p "$PASSWORD_HOST" ssh $ID_OPT $N_FLAG $TUNNEL_FLAGS "$REMOTE_HOST" -p "$DEFAULT_SSH_PORT"
+}
+
+# Logger Logic wrapper
+if [ "$ENABLE_LOGS" = "true" ]; then
+    # Ensure log directory exists
+    mkdir -p "$LOG_DIR"
     
-    echo " -> Mapped: $BIND_ADDRESS:$L_PORT => Remote:$R_PORT"
-    TUNNEL_FLAGS="$TUNNEL_FLAGS -L $L_PORT:$BIND_ADDRESS:$R_PORT"
-done
-
-# Check if IdentityFile is provided
-ID_OPT=""
-if [ -n "$IDENTITY_FILE" ]; then
-    ID_OPT="-o IdentityFile=$IDENTITY_FILE"
+    # Generate timestamped filename: YYYY-MM-DD_HH-MM-SS.log
+    TIMESTAMP=$(date +"%Y-%m-%d_%H-%M-%S")
+    LOG_FILE="$LOG_DIR/ssh_session_$TIMESTAMP.log"
+    
+    echo "Logging enabled. Saving session to: $LOG_FILE"
+    
+    # Run the tunnel function and pipe all output (stdout and stderr) to tee
+    run_ssh_tunnel 2>&1 | tee "$LOG_FILE"
+else
+    # Run normally without logs
+    run_ssh_tunnel
 fi
-
-# Terminal vs Tunnel-only logic
-N_FLAG="-N"
-if [ "$ENABLE_TERMINAL" = "true" ]; then
-    N_FLAG=""
-fi
-
-echo "----------------------------------------"
-echo "Starting SSH Tunnel..."
-echo "Remote Host:             $REMOTE_HOST"
-echo "SSH Tunnel Gateway Port: $DEFAULT_SSH_PORT"
-[ -n "$IDENTITY_FILE" ] && echo "Identity File Path:      $IDENTITY_FILE"
-echo "Operation Mode:          $( [ "$ENABLE_TERMINAL" = "true" ] && echo "Interactive Terminal Session" || echo "Tunnel Only (Quiet)")"
-echo "----------------------------------------"
-
-# Executing the command with all generated tunnels
-sshpass -p "$PASSWORD_HOST" ssh $ID_OPT $N_FLAG $TUNNEL_FLAGS "$REMOTE_HOST" -p "$DEFAULT_SSH_PORT"
